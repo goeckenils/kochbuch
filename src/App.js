@@ -35,7 +35,9 @@ const App = () => {
     <div className="App">
       <nav className="navbar">
         <div className="nav-wrapper">
-          <h1 className="logo">Cookbook</h1>
+          <h1 className="logo">
+            <i class="fas fa-glass-cheers" /> Cookbook
+          </h1>
           <form onSubmit={getSearch} className="search-form">
             <input
               className="search-bar"
